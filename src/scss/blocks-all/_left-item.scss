@@ -1,0 +1,27 @@
+.left-item{
+  background-color: #0E1621;
+  position: relative;
+}
+
+.left-button{
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translateY(50%);
+  transform: translate(-50%);
+}
+
+.left-button::before,
+.left-inner,
+.left-button::after{
+  content: '';
+  // position: absolute;
+  width: 25px;
+  height: 4px;
+  margin-bottom: 4px;
+  display: block;
+  border-radius: 1.5px;
+  background-color: $grey;
+}

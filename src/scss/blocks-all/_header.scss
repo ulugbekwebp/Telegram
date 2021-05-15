@@ -1,0 +1,52 @@
+.header{
+  padding: 10px;
+  height: 63px;
+  position: relative;
+}
+
+.header-right{
+  border-left: 2px solid #101921;
+  background-color: #17212B;
+  color: aliceblue;
+  display: flex;
+}
+
+.header__title{
+  font-size: 18px;
+  margin: 0;
+}
+
+.header__status{
+  margin: 0;
+  font-size: 14px;
+  color: $status;
+}
+
+.header__right-bar{
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.icon{
+  fill: $grey;
+  margin-right: 15px;
+  
+  &:hover{
+    fill: white;
+  }
+}
+
+// .header-right{
+//   // display: none;
+// }
+
+// .header-jamol{
+//   padding: 10px;
+//   border-left: 2px solid #101921;
+//   background-color: #17212B;
+//   color: aliceblue;
+//   display: flex;
+// }
+

@@ -1,0 +1,23 @@
+.input-search{
+  background-color: #242F3D;
+  color: #6D7883;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  width: 90%;
+
+  &:focus{
+    outline: none;
+  }
+}
+
+.center-item{
+  background-color: #17212B;
+  height: 100vh;
+}
+
+.unlock-button{
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
