@@ -7761,9 +7761,6 @@ textarea.form-control-lg {
 .input-search {
   background-color: #242F3D;
   color: #6D7883;
-  border: none;
-  padding: 10px;
-  border-radius: 8px;
   width: 90%; }
   .input-search:focus {
     outline: none; }
@@ -7773,9 +7770,8 @@ textarea.form-control-lg {
   height: 100vh; }
 
 .unlock-button {
-  border: none;
   background-color: transparent;
-  padding: 0; }
+  position: relative; }
 
 .right-item {
   background: url(../img/tg-bgc.jpg) no-repeat center;
@@ -7806,7 +7802,6 @@ textarea.form-control-lg {
   background-color: #6C7883; }
 
 .header {
-  padding: 10px;
   height: 63px;
   position: relative; }
 
@@ -7817,11 +7812,9 @@ textarea.form-control-lg {
   display: flex; }
 
 .header__title {
-  font-size: 18px;
-  margin: 0; }
+  font-size: 18px; }
 
 .header__status {
-  margin: 0;
   font-size: 14px;
   color: #63B6FF; }
 
@@ -7838,6 +7831,5 @@ textarea.form-control-lg {
     fill: white; }
 
 .main-bar {
-  padding: 10px;
-  padding-bottom: 90px;
+  padding-bottom: 90px !important;
   height: 100vh; }

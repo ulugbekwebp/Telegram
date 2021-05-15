@@ -1,9 +1,9 @@
 .input-search{
   background-color: #242F3D;
   color: #6D7883;
-  border: none;
-  padding: 10px;
-  border-radius: 8px;
+  // border: none;
+  // padding: 10px;
+  // border-radius: 8px;
   width: 90%;
 
   &:focus{
@@ -17,7 +17,8 @@
 }
 
 .unlock-button{
-  border: none;
+  // border: none;
+  // padding: 0;
   background-color: transparent;
-  padding: 0;
+  position: relative;
 }
