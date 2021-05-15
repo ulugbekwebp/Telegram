@@ -8,6 +8,10 @@
   border-left: 2px solid #101921;
   background-color: #17212B;
   color: aliceblue;
+  display: none;
+}
+
+.header-right-active{
   display: flex;
 }
 
@@ -38,3 +42,10 @@
   }
 }
 
+.header-jamol{
+  display: none;
+}
+
+.header-jamol-active{
+  display: block;
+}

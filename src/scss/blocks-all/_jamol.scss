@@ -1,0 +1,35 @@
+.jamol {
+  cursor: pointer;
+
+  &:hover{
+    background-color: rgba($color: #fff, $alpha: 0.1);
+  }
+}
+
+.title {
+  width: 60%;
+}
+
+.jamol__title {
+  color: #fff;
+  font-size: 27px;
+}
+
+.jamol__desc {
+  color: #fff;
+  width: 90%;
+}
+
+.date {
+  width: 15%;
+}
+
+.time {
+  color: #fff;
+}
+
+.number {
+  color: #fff;
+  display: block;
+  width: 90%;
+}

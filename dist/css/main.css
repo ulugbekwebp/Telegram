@@ -68,7 +68,7 @@ img {
   font-display: swap; }
 
 .main-item {
-  height: 100vh;
+  height: 95vh;
   overflow-y: hidden; }
 
 /*!
@@ -7761,13 +7761,13 @@ textarea.form-control-lg {
 .input-search {
   background-color: #242F3D;
   color: #6D7883;
-  width: 90%; }
+  width: 85%; }
   .input-search:focus {
     outline: none; }
 
 .center-item {
   background-color: #17212B;
-  height: 100vh; }
+  height: 95vh; }
 
 .unlock-button {
   background-color: transparent;
@@ -7775,7 +7775,8 @@ textarea.form-control-lg {
 
 .right-item {
   background: url(../img/tg-bgc.jpg) no-repeat center;
-  background-size: cover; }
+  background-size: cover;
+  position: relative; }
 
 .left-item {
   background-color: #0E1621;
@@ -7809,6 +7810,9 @@ textarea.form-control-lg {
   border-left: 2px solid #101921;
   background-color: #17212B;
   color: aliceblue;
+  display: none; }
+
+.header-right-active {
   display: flex; }
 
 .header__title {
@@ -7830,6 +7834,49 @@ textarea.form-control-lg {
   .icon:hover {
     fill: white; }
 
+.header-jamol {
+  display: none; }
+
+.header-jamol-active {
+  display: block; }
+
 .main-bar {
   padding-bottom: 90px !important;
-  height: 100vh; }
+  height: 95vh; }
+
+.text, .text-input {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  background-color: #17212B;
+  color: #fff; }
+  .text:focus, .text-input:focus {
+    outline: none; }
+
+.jamol {
+  cursor: pointer; }
+  .jamol:hover {
+    background-color: rgba(255, 255, 255, 0.1); }
+
+.title {
+  width: 60%; }
+
+.jamol__title {
+  color: #fff;
+  font-size: 27px; }
+
+.jamol__desc {
+  color: #fff;
+  width: 90%; }
+
+.date {
+  width: 15%; }
+
+.time {
+  color: #fff; }
+
+.number {
+  color: #fff;
+  display: block;
+  width: 90%; }

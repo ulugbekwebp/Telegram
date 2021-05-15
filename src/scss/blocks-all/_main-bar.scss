@@ -1,5 +1,22 @@
 .main-bar{
   // padding: 10px;
   padding-bottom: 90px!important;
-  height: 100vh;
+  height: 95vh;
 }
+
+.text, .text-input{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  background-color: #17212B;
+  color: #fff;
+
+  &:focus{
+    outline: none;
+  }
+}
+
+// .svg-color{
+//  z-index: 55;
+// }
