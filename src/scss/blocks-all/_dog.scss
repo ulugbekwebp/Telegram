@@ -1,0 +1,23 @@
+.header-dog{
+  display: none;
+}
+
+.header-dog-active{
+  display: block;
+}
+
+.dog__list{
+  display: none;
+}
+
+.dog__list-active{
+  display: block;
+}
+
+.dog{
+  cursor: pointer;
+
+  &:hover{
+    background-color: rgba($color: #fff, $alpha: 0.1);
+  }
+}

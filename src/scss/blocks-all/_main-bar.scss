@@ -49,3 +49,47 @@
 .main-bottom-active{
   display: block;
 }
+
+.main-bar__div{
+  position: relative;
+  top: 59%;
+}
+
+.main-bar__list{
+  position: absolute;
+  width: 100%;
+
+}
+
+.main-bar__chat{
+  background-color: #2B5278;
+  text-align: right;
+  color: #fff;
+  width: 75%;
+  
+}
+
+.main-bar__chat:nth-child(2n){
+  background-color: #182533;
+  // margin-left: 0;
+  // margin-right: auto;
+}
+
+.main-bar__chat-desc{
+  margin: 0;
+  text-align: start;
+  // display: block;
+  // width: 100%;
+}
+
+.main-bar__chat-time{
+  margin-left: auto;
+}
+
+.jamol__list{
+  display: none;
+}
+
+.jamol__list-active{
+  display: block;
+}

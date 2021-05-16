@@ -7776,6 +7776,7 @@ textarea.form-control-lg {
 .right-item {
   background: url(../img/tg-bgc.jpg) no-repeat center;
   background-size: cover;
+  background: darksalmon;
   position: relative; }
 
 .left-item {
@@ -7880,6 +7881,36 @@ textarea.form-control-lg {
 .main-bottom-active {
   display: block; }
 
+.main-bar__div {
+  position: relative;
+  top: 59%; }
+
+.main-bar__list {
+  position: absolute;
+  width: 100%; }
+
+.main-bar__chat {
+  background-color: #2B5278;
+  text-align: right;
+  color: #fff;
+  width: 75%; }
+
+.main-bar__chat:nth-child(2n) {
+  background-color: #182533; }
+
+.main-bar__chat-desc {
+  margin: 0;
+  text-align: start; }
+
+.main-bar__chat-time {
+  margin-left: auto; }
+
+.jamol__list {
+  display: none; }
+
+.jamol__list-active {
+  display: block; }
+
 .jamol {
   cursor: pointer; }
   .jamol:hover {
@@ -7890,7 +7921,7 @@ textarea.form-control-lg {
 
 .jamol__title {
   color: #fff;
-  font-size: 27px; }
+  font-size: 20px; }
 
 .jamol__desc {
   color: #fff;
@@ -7906,3 +7937,20 @@ textarea.form-control-lg {
   color: #fff;
   display: block;
   width: 90%; }
+
+.header-dog {
+  display: none; }
+
+.header-dog-active {
+  display: block; }
+
+.dog__list {
+  display: none; }
+
+.dog__list-active {
+  display: block; }
+
+.dog {
+  cursor: pointer; }
+  .dog:hover {
+    background-color: rgba(255, 255, 255, 0.1); }
