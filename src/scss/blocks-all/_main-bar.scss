@@ -4,19 +4,48 @@
   height: 95vh;
 }
 
-.text, .text-input{
+.text{
   position: absolute;
   bottom: 0;
-  width: 100%;
   left: 0;
+  width: 100%;
   background-color: #17212B;
   color: #fff;
+  
+}
 
+.text-input{
+  background-color: #17212B;
+  color: #fff;
+  width: 75%;
+  
   &:focus{
     outline: none;
   }
 }
 
-// .svg-color{
-//  z-index: 55;
-// }
+.main-svg{
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  z-index: 1;
+  background-color: transparent;
+}
+
+.main-audio-svg{
+  left: auto;
+  right: 15px;
+}
+
+.main-smile-svg{
+  left: auto;
+  right: 55px;
+}
+
+.main-bottom{
+  display: none;
+}
+
+.main-bottom-active{
+  display: block;
+}
