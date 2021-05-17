@@ -7893,7 +7893,7 @@ textarea.form-control-lg {
   background-color: #2B5278;
   text-align: right;
   color: #fff;
-  width: 75%; }
+  display: block; }
 
 .main-bar__chat:nth-child(2n) {
   background-color: #182533; }
@@ -7905,10 +7905,7 @@ textarea.form-control-lg {
 .main-bar__chat-time {
   margin-left: auto; }
 
-.jamol__list {
-  display: none; }
-
-.jamol__list-active {
+.main-bar__div {
   display: block; }
 
 .jamol {
@@ -7937,6 +7934,13 @@ textarea.form-control-lg {
   color: #fff;
   display: block;
   width: 90%; }
+
+.jamol__list {
+  display: none;
+  border: 1px solid red; }
+
+.jamol__list-active {
+  display: block; }
 
 .header-dog {
   display: none; }
