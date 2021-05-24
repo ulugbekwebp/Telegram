@@ -33,3 +33,12 @@
   display: block;
   width: 90%;
 }
+
+.jamol__list{
+  display: none;
+  border: 1px solid red;
+}
+
+.jamol__list-active{
+  display: block;
+}

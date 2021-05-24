@@ -65,8 +65,8 @@
   background-color: #2B5278;
   text-align: right;
   color: #fff;
-  width: 75%;
-  
+  // width: 75%;
+  display: block;
 }
 
 .main-bar__chat:nth-child(2n){
@@ -86,10 +86,8 @@
   margin-left: auto;
 }
 
-.jamol__list{
-  display: none;
-}
 
-.jamol__list-active{
+
+.main-bar__div{
   display: block;
 }
